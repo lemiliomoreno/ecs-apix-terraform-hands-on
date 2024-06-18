@@ -1,0 +1,6 @@
+cluster_name = "apix-ecs"
+aws_region   = "us-west-2"
+environment  = "dev"
+vpc_cidr     = "10.0.0.0/16"
+db_password  = "clusteradmin"
+db_username  = "s9GxWyg6qQ43vcnhTm7bpR"
