@@ -73,5 +73,5 @@ jobs:
         working-directory: terraform
         run: |
           terraform init
-          terraform plan -var-file environments/dev.tfvars -var release=${{ steps.latest_tag.outputs.tag }}
-          terraform destroy -var-file environments/dev.tfvars -var release=${{ steps.latest_tag.outputs.tag }} -auto-approve
+          terraform plan -var-file environments/dev.tfvars -var release=${{ steps.latest_tag.outputs.tag }} -var db_password=${{ secrets.DB_PASSWORD }}
+          terraform apply -var-file environments/dev.tfvars -var release=${{ steps.latest_tag.outputs.tag }} -var db_password=${{ secrets.DB_PASSWORD }} -auto-approve
