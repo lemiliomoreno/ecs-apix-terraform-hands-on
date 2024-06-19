@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/lemiliomoreno/ecs-apix-terraform-hands-on/compare/v1.1.1...v1.2.0) (2024-06-19)
+
+
+### Features
+
+* add more resources to ecs task ([0d68a9d](https://github.com/lemiliomoreno/ecs-apix-terraform-hands-on/commit/0d68a9d674c47bbe28b2da72477a3458cc5041b6))
+
 ## [1.1.1](https://github.com/lemiliomoreno/ecs-apix-terraform-hands-on/compare/v1.1.0...v1.1.1) (2024-06-18)
 
 
