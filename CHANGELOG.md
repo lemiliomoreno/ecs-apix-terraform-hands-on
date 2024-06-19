@@ -1,3 +1,10 @@
+# [1.3.0](https://github.com/lemiliomoreno/ecs-apix-terraform-hands-on/compare/v1.2.0...v1.3.0) (2024-06-19)
+
+
+### Features
+
+* destroy resources ([473873d](https://github.com/lemiliomoreno/ecs-apix-terraform-hands-on/commit/473873d393bfa0b2d02b4930a55d0ae95845341c))
+
 # [1.2.0](https://github.com/lemiliomoreno/ecs-apix-terraform-hands-on/compare/v1.1.1...v1.2.0) (2024-06-19)
 
 
